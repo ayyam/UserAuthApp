@@ -48,3 +48,42 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+Task Requirements: (React Native + Local Storage)
+Duration: 2 days
+
+1. Design a Screen with option for User Registration and Login (Keep Minimal Details)
+
+2. Don't allow duplicate user to register
+
+3. On Logging the application display a page/dashboard with a Welcome Text
+
+4. There should be an option for log out
+
+5. Place a button to fetch the user details on the home page. On clicking on that, the user's details will be displayed on the home page.
+
+6. Once you completed the development, push the project codes to your github account and share the link with me. Also, please put the apk in a folder in the project.
+
+### Feature 1
+
+![Feature 1 Screenshot](apk/screenshots/splash.jpg)
+
+### Feature 2
+
+![Feature 2 Screenshot](apk/screenshots/register-1.jpg)
+
+### Feature 3
+
+![Feature 1 Screenshot](apk/screenshots/login-1.jpg)
+
+### Feature 4
+
+![Feature 2 Screenshot](apk/screenshots/alert.jpg)
+
+### Feature 5
+
+![Feature 1 Screenshot](apk/screenshots/home-1.jpg)
+
+### Feature 6
+
+![Feature 2 Screenshot](apk/screenshots/home-2.jpg)
