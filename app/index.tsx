@@ -23,7 +23,7 @@ export default function Home() {
     const username = await getCurrentUser();
     const users = await getUsers();
     if (username) {
-      setUserDetails(users[username]);
+      setUserDetails({ ...users[username], username }); // Include the username in userDetails
     }
   };
 
@@ -46,7 +46,7 @@ export default function Home() {
           </Pressable>
           {userDetails && (
             <View style={styles.detailsContainer}>
-              <Text>Username: {userDetails.username}</Text>
+              <Text>Name: {userDetails.username}</Text>
               <Text>Email: {userDetails.email}</Text>
               <Text>Mobile: {userDetails.mobile}</Text>
             </View>
